@@ -8,6 +8,8 @@ class Provider(models.Model):
     tasks_offered = models.TextField()  # List or summary of tasks the provider can help with
     location = models.TextField()  # City or area where the provider operates
     created_at = models.DateTimeField(auto_now_add=True)  # Timestamp for when the provider was created
+    profile_picture = models.ImageField(upload_to='provider_profiles/', blank=True, null=True)  # Optional profile picture
+
 
     def __str__(self):
         return self.name
