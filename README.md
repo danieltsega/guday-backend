@@ -8,3 +8,5 @@ Guday is a Django-based backend project, built using the Django REST framework. 
 - Python 3.10
 - Django 4.0
 - Django REST
+
+**Guday Front-End** under development.
